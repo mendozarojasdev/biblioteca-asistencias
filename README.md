@@ -16,7 +16,7 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 ![pantalla publica](screenshots/03-pantalla-admin-reportes.png)
 > Pantalla reportes.
 
-📂 Puede ver más capturas en la carpeta /screenshots.
+📂 Puede ver más capturas en la carpeta [/screenshots](screenshots/).
 
-## License
-Simple Sidebar Menu is released under the [MIT license](https://github.com/codexlibra/simple-sidebar-menu/blob/master/LICENSE).
+## Licencia
+Biblioteca Asistencias está publicado bajo la licencia [MIT license](https://github.com/mendozarojasdev/biblioteca-asistencias/blob/master/LICENSE).
