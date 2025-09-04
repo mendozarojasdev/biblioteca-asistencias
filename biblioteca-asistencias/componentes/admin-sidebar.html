@@ -1,0 +1,66 @@
+<aside class="sidebar sidebar-collapsed">
+	<div class="accordion">
+		<div class="sidebar-menu">
+			<div class="nav px-2">
+				<div class="section-title">Panel</div>
+				<a class="nav-link" href="index.php">
+					<i class="fa-solid fa-house"></i>
+					Menú Principal
+				</a>
+				<div class="section-title">Registrar Usuario</div>
+				<a href="alta-estudiantes.php" class="nav-link">
+					<i class="fa-solid fa-user"></i> Estudiantes
+				</a>
+				<a href="alta-usuarios.php" class="nav-link">
+					<i class="fa-solid fa-user"></i> Usuarios
+				</a>
+				<div class="section-title">Usuarios Registrados</div>
+				<a href="estudiantes.php" class="nav-link">
+					<i class="fa-solid fa-user"></i> Estudiantes
+				</a>
+				<a href="usuarios.php" class="nav-link">
+					<i class="fa-solid fa-user"></i> Usuarios
+				</a>
+				<div class="section-title">Acciones</div>
+				<a href="reporte-asistencias.php" class="nav-link">
+					<i class="fa-solid fa-chart-line"></i> Reportes
+				</a>
+				<a href="importar-estudiantes.php" class="nav-link">
+					<i class="fa-solid fa-table"></i> Importar Estudiantes
+				</a>
+				<a href="importar-usuarios.php" class="nav-link">
+					<i class="fa-solid fa-table"></i> Importar Usuarios
+				</a>
+				<a href="respaldar-datos.php" class="nav-link">
+					<i class="fa-solid fa-database"></i> Respaldar Datos
+				</a>
+				<div class="section-title">Sesión</div>
+				<a href="actualizar-password.php" class="nav-link">
+					<i class="fa-solid fa-key"></i> Cambiar Contraseña
+				</a>
+				<a href="logout.php" class="nav-link">
+					<i class="fa-solid fa-door-open"></i> Cerrar Sesión
+				</a>
+			</div>
+		</div>
+		<div class="sidebar-footer">
+			<div class="theme-switcher">
+				<div class="dropdown">
+					<button class="btn btn-sm btn-outline-secondary dropdown-toggle w-100" type="button"
+						data-bs-toggle="dropdown">
+						Tema
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#" data-theme="light">Claro</a></li>
+						<li><a class="dropdown-item" href="#" data-theme="dark">Oscuro</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mt-3 text-muted">
+				<span class="text-primary"></span>Administrador: <?php echo $_SESSION['usuario']; ?></span>
+			</div>
+		</div>
+	</div>
+</aside>
+<!-- Overlay -->
+<div id="sidebar-overlay" class="sidebar-overlay d-none"></div>
