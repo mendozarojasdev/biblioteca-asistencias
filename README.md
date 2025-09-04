@@ -6,3 +6,5 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 [![](https://github.com/mendozarojasdev/biblioteca-asistencias/blob/master/screenshots/01-pantalla-publica.png)](https://github.com/mendozarojasdev/biblioteca-asistencias/blob/master/screenshots/01-pantalla-publica.png "Pantalla pública")
 
 > Pantalla pública.
+
+![alt text](screenshots/01-pantalla-publica.png)
