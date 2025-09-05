@@ -30,7 +30,7 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 ![pantalla publica](screenshots/03-pantalla-admin-reportes.png)
 > Pantalla para generar reportes y exportarlos a Excel
 
-📂 Puede ver más capturas en la carpeta [/screenshots](screenshots/).
+📂 Puedes ver más capturas en la carpeta [/screenshots](screenshots/).
 
 ## Tecnologías utilizadas
 **Frontend**
