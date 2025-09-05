@@ -113,7 +113,7 @@ En esta ruta ejecuta el siguiente comando.
 ```bash
 composer require phpoffice/phpspreadsheet
 ```
-✅ Listo, el sistema debería estar funcionando en tu entorno local.
+✅ Listo, el sistema debería estar funcionando en el entorno local.
 
 ## Licencia
 Biblioteca Asistencias está publicado bajo la licencia MIT. Consulta el archivo [MIT license](https://github.com/mendozarojasdev/biblioteca-asistencias/blob/master/LICENSE) para más información.
