@@ -14,7 +14,7 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 - Panel de administración con dashboard.
 - Exportación de reportes a Excel (PhpSpreadsheet).
 - Visualización de registros en tabla dinámica.
-- Filtros de búsqueda y navegación desde menú lateral.
+- Filtros de búsqueda y navegación desde menú lateral (administración).
 
 ## Screenshots
 
