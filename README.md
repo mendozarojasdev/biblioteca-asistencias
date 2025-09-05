@@ -1,34 +1,30 @@
 # Biblioteca Asistencias
 Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río, permite registrar entradas de estudiantes, generar reportes y exportar datos a **Excel**.
 
----
-
-## 📑 Tabla de contenido
+## Tabla de contenido
 - [Características principales](#-características-principales)
 - [Screenshots](#-screenshots)
 - [Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [Requerimientos](#-requerimientos)
-- [Instalación](#-instalación)
-- [Licencia](#-licencia)
-
----
+- [Instalación](#instalación)
+- [Licencia](#licencia)
 
 ## Screenshots
 
 ### Pantalla pública
 
 ![pantalla publica](screenshots/01-pantalla-publica.png)
-> Pantalla pública.
+> Pantalla pública
 
 ### Pantalla principal de administración
 
 ![pantalla publica](screenshots/02-pantalla-admin-principal.png)
-> Pantalla administración.
+> Pantalla de administración
 
 ### Pantalla de reportes
 
 ![pantalla publica](screenshots/03-pantalla-admin-reportes.png)
-> Pantalla reportes.
+> Pantalla de reportes
 
 📂 Puede ver más capturas en la carpeta [/screenshots](screenshots/).
 
@@ -56,6 +52,8 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 - Composer (si se usa para gestionar dependencias)
 
 ## Instalación
+
+Puedes descargar la versión más reciente de Biblioteca Asistencias desde [GitHub Releases](https://github.com/mendozarojasdev-biblioteca-asistencias/releases/latest).
 
 ```bash
 # Clonar repositorio
