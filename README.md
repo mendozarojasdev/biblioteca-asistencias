@@ -38,7 +38,7 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 - [jQuery](https://jquery.com/)
 
 **Backend**
-- PHP 8+
+- PHP 8.3
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 
 **Base de datos**
@@ -71,7 +71,7 @@ date.timezone = America/Mexico_City
 display_errors = Off
 upload_max_filesize = 256M
 
-# Habilita las siguientes extensiones:
+# Habilita las siguientes extensiones
 extension=mysqli
 extension=gd
 ```
@@ -83,9 +83,9 @@ Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL to MariaDB
 ```
 
 ### 5. Crear la base de datos
-- Abre [phpMyAdmin](localhost/phpmyadmin/)
+- Abre phpMyAdmin desde localhost/phpmyadmin/
 - Ingresa con usuario: **root** (sin contraseña por defecto).
-- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca-asistencias.sql)
+- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca_asistencias.sql)
 
 ### 6. Desplegar el proyecto
 Descomprime el archivo biblioteca-asistencias.zip en:
