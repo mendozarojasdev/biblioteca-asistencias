@@ -2,10 +2,10 @@
 Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río, permite registrar entradas de estudiantes, generar reportes y exportar datos a **Excel**.
 
 ## Tabla de contenido
-- [Características principales](#-características-principales)
-- [Screenshots](#-screenshots)
-- [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Requerimientos](#-requerimientos)
+- [Características principales](#características-principales)
+- [Screenshots](#screenshots)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Requerimientos](#requerimientos)
 - [Instalación](#instalación)
 - [Licencia](#licencia)
 
@@ -31,29 +31,28 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 ## Tecnologías utilizadas
 
 **Frontend**
-- [Bootstrap 5](https://getbootstrap.com/)  
-- [jQuery](https://jquery.com/)  
-- CSS3  
+- [Bootstrap 5](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 **Backend**
-- PHP 8+  
-- [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)  
+- PHP 8+
+- [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 
 **Base de datos**
-- MariaDB 10.5+  
+- MariaDB 10.5+
 
 **Servidor**
 - Apache 2.4
 
 ## Requerimientos
-- PHP >= 8.0  
-- MariaDB >= 10.5  
-- Apache >= 2.4  
-- Composer (si se usa para gestionar dependencias)
+- PHP >= 8.0
+- MariaDB >= 10.5
+- Apache >= 2.4
+- Composer
 
 ## Instalación
 
-Puedes descargar la versión más reciente de Biblioteca Asistencias desde [GitHub Releases](https://github.com/mendozarojasdev-biblioteca-asistencias/releases/latest).
+Puedes descargar la versión más reciente de Biblioteca Asistencias desde [GitHub Releases](https://github.com/mendozarojasdev/biblioteca-asistencias/releases/latest).
 
 ```bash
 # Clonar repositorio
