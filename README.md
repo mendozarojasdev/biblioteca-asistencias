@@ -85,10 +85,10 @@ Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL to MariaDB
 ### 5. Crear la base de datos
 - Abre phpMyAdmin desde localhost/phpmyadmin/
 - Ingresa con usuario: **root** (sin contraseña por defecto).
-- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca_asistencias.sql)
+- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca_asistencias.sql).
 
 ### 6. Desplegar el proyecto
-Descomprime el archivo biblioteca-asistencias.zip en:
+Descomprime el archivo zip en:
 ```bash
 C:\wamp\www\
 ```
@@ -97,8 +97,8 @@ C:\wamp\www\
 Ingresa a:
 ```bash
 localhost/biblioteca-asistencias/admin/signup.php
-# Registra el primer usuario administrador.
 ```
+En este aparado registra el primer usuario administrador.
 
 ### 8. Instalar la aplicación
 - Una vez dentro, utiliza la opción “instalar” (aparece en la esquina derecha de la URL).
@@ -108,10 +108,12 @@ localhost/biblioteca-asistencias/admin/signup.php
 Abre una terminal en la ruta:
 ```bash
 C:/wamp/www/biblioteca-asistencias/componentes/phpspreadsheet
-
-# Ejecutar
+```
+En esta ruta ejecuta el siguiente comando.
+```bash
 composer require phpoffice/phpspreadsheet
 ```
+✅ Listo, el sistema debería estar funcionando en tu entorno local.
 
 ## Licencia
 Biblioteca Asistencias está publicado bajo la licencia MIT. Consulta el archivo [MIT license](https://github.com/mendozarojasdev/biblioteca-asistencias/blob/master/LICENSE) para más información.
