@@ -48,7 +48,7 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 - Apache 2.4
 
 ## Requerimientos
-- PHP >= 8.0
+- PHP >= 8.3
 - MariaDB >= 10.5
 - Apache >= 2.4
 - Composer
@@ -70,17 +70,47 @@ Edita el archivo `php.ini` y ajusta las siguientes configuraciones:
 date.timezone = America/Mexico_City
 display_errors = Off
 upload_max_filesize = 256M
+
+# Habilita las siguientes extensiones:
+extension=mysqli
+extension=gd
 ```
 
+### 4. Configurar MariaDB en lugar de MySQL
+En WampServer:
+```ini
+Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL to MariaDB
+```
+
+### 5. Crear la base de datos
+- Abre [phpMyAdmin](localhost/phpmyadmin/)
+- Ingresa con usuario: **root** (sin contraseña por defecto).
+- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca-asistencias.sql)
+
+### 6. Desplegar el proyecto
+Descomprime el archivo biblioteca-asistencias.zip en:
 ```bash
-# Clonar repositorio
-git clone https://github.com/usuario/proyecto-biblioteca.git
+C:\wamp\www\
+```
 
-# Importar la base de datos
-mysql -u root -p < database/schema.sql
+### 7. Crear usuario principal
+Ingresa a:
+```bash
+localhost/biblioteca-asistencias/admin/signup.php
+# Registra el primer usuario administrador.
+```
 
-# Colocar el proyecto en la carpeta htdocs de Apache
-# Acceder desde: http://localhost/proyecto-biblioteca
+### 8. Instalar la aplicación
+- Una vez dentro, utiliza la opción “instalar” (aparece en la esquina derecha de la URL).
+- Esto generará un acceso directo en tu escritorio para ingresar más fácilmente.
+
+### 9. Instalar PhpSpreadsheet
+Abre una terminal en la ruta:
+```bash
+C:/wamp/www/biblioteca-asistencias/componentes/phpspreadsheet
+
+# Ejecutar
+composer require phpoffice/phpspreadsheet
 ```
 
 ## Licencia
