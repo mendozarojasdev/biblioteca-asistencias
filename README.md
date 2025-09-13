@@ -23,11 +23,11 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 > Pantalla pública
 
 ### Pantalla principal de administración
-![pantalla publica](screenshots/02-pantalla-admin-principal.png)
+![pantalla administración](screenshots/02-pantalla-admin-principal.png)
 > Pantalla de administración
 
 ### Pantalla de reportes
-![pantalla publica](screenshots/03-pantalla-admin-reportes.png)
+![pantalla reportes](screenshots/03-pantalla-admin-reportes.png)
 > Pantalla para generar reportes y exportarlos a Excel
 
 📂 Puedes ver más capturas en la carpeta [/screenshots](screenshots/).
