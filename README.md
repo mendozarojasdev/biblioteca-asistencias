@@ -42,14 +42,14 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 
 **Base de datos**
-- MariaDB 10.5+
+- MariaDB 11.8
 
 **Servidor**
 - Apache 2.4
 
 ## Requerimientos
 - PHP >= 8.3
-- MariaDB >= 10.5
+- MariaDB >= 11.8
 - Apache >= 2.4
 - Composer
 
@@ -83,7 +83,7 @@ Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL to MariaDB
 ```
 
 ### 5. Crear la base de datos
-- Abre phpMyAdmin desde localhost/phpmyadmin/
+- Abre phpMyAdmin desde `localhost/phpmyadmin/`
 - Ingresa con usuario: **root** (sin contraseña por defecto).
 - Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca_asistencias.sql).
 
