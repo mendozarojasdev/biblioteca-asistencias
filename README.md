@@ -35,10 +35,11 @@ Aplicación web implementada en la biblioteca del TecNM Campus San Juan del Río
 ## Tecnologías utilizadas
 **Frontend**
 - [Bootstrap 5](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
 
 **Backend**
 - PHP 8.3
+- [jQuery Validation](https://jqueryvalidation.org/)
+- [Bootstrap 5 DataTables](https://datatables.net/examples/styling/bootstrap5)
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 
 **Base de datos**
